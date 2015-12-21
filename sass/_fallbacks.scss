@@ -1,0 +1,153 @@
+.no-svg {
+
+	// The SVG fallback mixin
+	// Sets a background image on the element you specify
+	// and hides the containing image.
+
+	// Accepts 3 arguments, the image to fallback to, the width and the height.
+
+	.navbar .brand {
+		@include svgfallback(url("/images/dg_labs_logo_mini.png"), 126px, 35px);
+		background-position: 0 15px;
+		padding-left: 25px;
+	}
+	.badge-ruby {
+		@include svgfallback(url("/images/ruby_icon_large.png"), 90px, 90px);
+	}
+	.badge-js {
+		@include svgfallback(url("/images/js_icon_large.png"), 90px, 90px);
+	}
+	.badge-wp {
+		@include svgfallback(url("/images/wp_icon_large.png"), 90px, 90px);
+	}
+	.badge-chef {
+		@include svgfallback(url("/images/chef_icon_large.png"), 85px, 85px);
+		width: 90px;
+		height: 90px;
+	}	
+	.github-stargazers {
+		@include svgfallback(url("/images/github_icon_small.png"), 18px, 14px);
+		padding-left: 20px;
+		img {
+			position: absolute;
+		}
+	}
+	.project-ruby {
+		@include svgfallback(url("/images/ruby_icon_small.png"), 37px, 37px);
+		width: 19px;
+		padding-left: 20px;
+		img {
+			position: absolute;
+		}
+	}	
+	.project-wordpress {
+		@include svgfallback(url("/images/wordpress_icon_small.png"), 37px, 37px);
+		width: 19px;
+		padding-left: 20px;
+		img {
+			position: absolute;
+		}
+	}	
+	.project-javascript {
+		@include svgfallback(url("/images/js_icon_small.png"), 37px, 37px);
+		width: 19px;
+		padding-left: 20px;
+		img {
+			position: absolute;
+		}
+	}
+	.project-chef {
+		@include svgfallback(url("/images/chef_icon_small.png"), 37px, 37px);
+		width: 19px;
+		padding-left: 20px;
+		img {
+			position: absolute;
+		}
+	}				
+	.twitter {
+		@include svgfallback(url("/images/twitter_icon_small.png"), 15px, 13px);
+		padding-left: 20px;
+		img {
+			position: absolute;
+		}		
+	}
+	.parent-brand-container {
+		@include svgfallback(url("/images/dachis_group_logo_mono.png"), 84px, 24px);
+		background-position: 0 20px;
+		margin-top: 10px;
+		img {
+			position: absolute;
+		}		
+	}				
+}
+
+.no-cssgradients {
+	.jumbotron {
+		background-image: url("/images/header_bg_strip.png");
+		background-repeat: repeat-x;
+	}
+}
+
+.no-csstransitions,
+.no-csstransforms {
+	.btn-project {
+		display: none;
+		visibility: hidden;
+	}
+	.project:hover h1 a {
+		text-decoration: underline;
+	}
+}
+
+.lt-ie9 {
+
+	.project-description p {
+		margin-top: 0;
+	}
+	
+	.navbar .brand {
+		// background-position: 15px 18px;
+	}
+
+	[class^="badge"] {
+		margin: 0 auto 15px;
+	}
+}
+
+.lt-ie8 {
+	body {
+		background: url("/images/bg_tile.gif");
+	}
+	.navbar .nav > li.contact-link span a {
+		position: relative;
+		top: 9px;
+	}
+}
+
+.noboxshadow .navbar {
+  &.scrolled {
+     background:transparent;
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
+     zoom: 1;    
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+	// dedicated touch styles
+	.touch,
+	.no-csstransitions, {
+		.project-description p {
+			margin-top: 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+  .no-cssgradients {
+    .jumbotron {
+      background-image: none;
+      background-color: $baby;
+    }
+  }
+}

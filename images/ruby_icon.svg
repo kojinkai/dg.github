@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_2" x="0px" y="0px" width="23.988px" height="24.497px" viewBox="0 0 23.988 24.497" enable-background="new 0 0 23.988 24.497" xml:space="preserve">
+<path fill="#376991" d="M20.471 20.729c-2.176 2.176-5.168 3.518-8.477 3.518c-3.311 0-6.301-1.342-8.479-3.518 C1.342 18.6 0 15.6 0 12.253s1.342-6.301 3.516-8.477c2.178-2.174 5.168-3.516 8.479-3.518c3.309 0 6.3 1.3 8.5 3.5 c2.174 2.2 3.5 5.2 3.5 8.477S22.645 18.6 20.5 20.7"/>
+<path fill="#FFFFFF" d="M19.127 19.386c-1.832 1.83-4.349 2.959-7.133 2.959c-2.786 0-5.301-1.129-7.135-2.959 c-1.828-1.831-2.957-4.351-2.957-7.133S3.031 7 4.9 5.12c1.834-1.828 4.349-2.957 7.135-2.959 c2.784 0 5.3 1.1 7.1 2.959c1.828 1.8 3 4.4 3 7.133S20.955 17.6 19.1 19.4"/>
+<polygon fill="none" stroke="#376991" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="11.9,20.7 3.9,9.1 6.4,6.6 11.9,6 17.5,6.6 19.9,9.1"/>
+<polygon fill="none" stroke="#376991" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" points="11.9,20.7 8.5,10.8 11.9,6 15.4,10.8"/>
+<polyline fill="none" stroke="#376991" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="3.9,9.1 8.5,10.8 11.9,10.9 15.4,10.8 19.9,9.1"/>
+<line fill="none" stroke="#376991" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="15.4" y1="10.8" x2="17.5" y2="6.6"/>
+<line fill="none" stroke="#376991" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="8.5" y1="10.8" x2="6.4" y2="6.6"/>
+</svg>

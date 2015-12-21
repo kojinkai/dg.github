@@ -1,0 +1,22 @@
+{
+  "name": "dglabs",
+  "version": "0.0.0",
+  "description": "Node Packages for Dg Labs Page",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.3.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dachisgroupuk/dachisgroupuk.github.io"
+  },
+  "author": "Lewis Nixon",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dachisgroupuk/dachisgroupuk.github.io/issues"
+  }
+}

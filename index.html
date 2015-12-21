@@ -1,0 +1,26 @@
+---
+layout: default
+title: DG Labs || Dachis Group || Powered By Open Source
+---
+
+    <section class="container" id="main" role="main">
+      <h1 class="main-head">Recent Development</h1>
+      <div class="row projects">
+        {% for post in site.posts %}
+          <article class="span3 project">
+            <div> 
+              <span class="project-type project-{{ post.category }}">
+                <img src="/images/{{ post.category }}_icon.svg" alt="{{ post.category }}" />
+              </span>
+              <h1>
+                <a class="project-title" href="{{ post.project_url }}">{{ post.title }}</a>
+              </h1>
+              <div class="project-description">
+                {{ post.content }}
+                <a href="{{ post.project_url }}" class="btn btn-project">View on Github</a>
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>

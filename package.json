@@ -1,0 +1,29 @@
+{
+  "name": "dglabs",
+  "version": "0.0.0",
+  "description": "Node Modules for Dg Labs Build process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dachisgroupuk/dachisgroupuk.github.io.git"
+  },
+  "author": "Lewis Nixon",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dachisgroupuk/dachisgroupuk.github.io/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-sass": "~0.4.0"
+  },
+  "dependencies": {
+    "dargs": "~0.1.0"
+  }
+}
